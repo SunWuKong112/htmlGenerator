@@ -113,9 +113,9 @@ function areThereMoreInterns()
                          if (err) 
                            console.log(err); 
                          else { 
-                           console.log("File written successfully\n"); 
-                           console.log("The written has the following contents:"); 
-                           console.log(fs.readFileSync(outputPath, "utf8")); 
+                              console.log(fs.readFileSync(outputPath, "utf8")); 
+                              console.log("The written has the above contents.");
+                              console.log("File written successfully to team.html\n");
                          }
                     });
                     break;
